@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace RamirezM_8_Ball.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class Ballcontroller : ControllerBase
     {
         public string responce(){
